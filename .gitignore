@@ -1,0 +1,44 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# pytest cache
+.pytest_cache/
+
+# Poetry lock and virtual environment (if you're using a local `.venv`)
+poetry.lock
+.venv/
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Environment variable files
+.env
+.env.*
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# MyPy and Pyright cache
+.mypy_cache/
+.pyright/
+
+# Test output
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Results/output
+results.csv
