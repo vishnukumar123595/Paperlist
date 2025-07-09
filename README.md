@@ -15,7 +15,7 @@ A command-line tool to fetch PubMed research papers matching a user query, filte
 Requires Python 3.10+. Uses [Poetry](https://python-poetry.org/) for dependency management.
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/vishnukumar123595/Paperlist.git
 cd Paperlist
 poetry install
 poetry run get-papers-list "cancer vaccine" --debug --file results.csv
